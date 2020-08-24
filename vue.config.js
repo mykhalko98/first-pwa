@@ -1,4 +1,4 @@
 // vue.config.js
 module.exports = {
-    publicPath: 'first-pwa'
+    publicPath: '/first-pwa/'
 }

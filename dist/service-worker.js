@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "first-pwa/precache-manifest.a2e290bd872dd2d50b344a6de8c3d94f.js"
+  "/first-pwa/precache-manifest.17e796dba7f48dc2e60f49da7f434306.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-books-pwa"});
