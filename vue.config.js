@@ -1,4 +1,6 @@
 // vue.config.js
 module.exports = {
-    publicPath: '/first-pwa/'
-}
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/first-pwa/'
+        : '/'
+};
